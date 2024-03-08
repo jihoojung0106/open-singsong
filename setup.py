@@ -6,22 +6,24 @@ from setuptools import setup, find_packages
 __version__ = Path("VERSION").read_text().strip()
 
 setup(
-  name = 'open-musiclm',
+  name = 'open-singsong',
   packages = find_packages(exclude=[]),
   include_package_data=True,
   version = __version__,
   license='MIT',
-  description = 'Open MusicLM - Implementation of MusicLM, a text to music model published by Google Research, with a few modifications',
-  author = 'Allen Zhang',
+  description = "Open SingSong - Implementation of 'SingSong: Generating Musical Accompaniments from Singing' by Google Research, with a few modifications",
+  author = 'JihooJung',
   long_description_content_type = 'text/markdown',
-  url = 'https://github.com/zhvng/open-musiclm',
+  url = 'https://github.com/jihoojung0106/open-singsong',
   keywords = [
     'artificial intelligence',
     'deep learning',
     'transformers',
     'attention mechanism',
     'audio generation',
+    'opensingsong',
     'musiclm',
+    'audiolm'
   ],
   install_requires=[
     'torch',
@@ -36,7 +38,7 @@ setup(
     'transformers',
     'encodec',
     'gdown',
-    'accelerate>=0.17.0',
+    'accelerate>=0.24.0',
     'beartype',
     'joblib',
     'h5py',
