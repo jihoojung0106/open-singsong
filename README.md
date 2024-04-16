@@ -1,6 +1,7 @@
-# Open-Singsong
+# [Open-Singsong](https://jihoojung0106.github.io/posts/OpenSingsong/)
 
 This is the unoffical implementation of "SingSong: Generating musical accompaniments from singing" from Google research.
+Demos and more details can be found in [here](https://jihoojung0106.github.io/posts/OpenSingsong/).
 We'll employ two models for the implementation of Singsong:
 - Open-musiclm [here](https://github.com/zhvng/open-musiclm): An unofficial implementation of the MusicLM paper, complete with pre-trained weights. We'll utilize this without any modifications.
   <p align='center'>
