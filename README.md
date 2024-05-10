@@ -1,4 +1,5 @@
 # [Open-Singsong](https://jihoojung0106.github.io/posts/OpenSingsong/)
+You can find the details of the model and results [here](https://jihoojung0106.github.io/posts/OpenSingsong/).
 
 This is the unoffical implementation of "SingSong: Generating musical accompaniments from singing" from Google research.
 Demos and more details can be found in [here](https://jihoojung0106.github.io/posts/OpenSingsong/).
